@@ -1,0 +1,115 @@
+/*Заголовки дизайн*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+
+    /*background: mediumorchid;*/
+    background: linear-gradient(to right, #7a7a76, #CEAD78, #F6EFD2, #CEAD78, #7a7a76);
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+/*заголовки расположение*/
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Заголовки отступы*/
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.2s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    /*color: #d1cb15;*/
+    color: #FFD700;
+}
+/*эфект подчеркивания*/
+
+/*#navbar li a.active::after,*/
+/*#navbar li a:hover::after{*/
+/*    content: "";*/
+/*    width: 60%;*/
+/*    height: 2px;*/
+/*    background: #d1cb15;*/
+/*    position: absolute;*/
+/*    bottom: -4px;*/
+/*    left: 20px;*/
+/*}*/
+/*главная страница*/
+.main{
+    background-image: url("фон для сайта темный луна.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.promo{
+    justify-content: center;
+    padding-left: 27px;
+    padding-top: 120px;
+
+}
+.promo_inner{
+    color: #f2f2c7;
+    position: fixed;
+
+    text-align: left;
+/*    по умолчанию слева мб можно убрать*/
+
+
+}
+.title{
+    font-weight: 600;
+    font-size: 96px;
+    background-image: linear-gradient(to right, #F6EFD2, #CEAD78, black);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 5px;
+
+
+}
+.subtitle{
+    font-size: 30px;
+    background-image: linear-gradient(to right, #F6EFD2, #CEAD78, #52524c);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
